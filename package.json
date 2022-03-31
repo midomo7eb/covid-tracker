@@ -2,7 +2,6 @@
   "name": "covid-tracker",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://radiant-escarpment-82988.herokuapp.com",
   "engines": {
     "node": "16.x"
   },
@@ -66,5 +65,8 @@
   "main": "index.js",
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "http-proxy-middleware": "^2.0.4"
+  }
 }
