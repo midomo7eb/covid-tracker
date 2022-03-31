@@ -106,8 +106,12 @@ router.post("/register", async (req, res) => {
   let user = await User.findOne({ email: req.body.email });
   if (user) return res.status(400).send("User already registered.");
   const location = { lat: "", lng: "" };
-  req.body.push(location);
-  user = new User(req.body);
+  const data = {
+    name: req.body.name,
+    email: req.body.email,
+    location: location,
+  };
+  user = new User(data);
 
   await user.save();
 
