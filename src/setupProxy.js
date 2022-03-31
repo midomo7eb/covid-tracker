@@ -3,6 +3,8 @@ module.exports = (app) => {
   app.use(
     createProxyMiddleware("/check", {
       target: "https://radiant-escarpment-82988.herokuapp.com",
+      secure: true,
+      changeOrigin: true,
     })
   );
 };
