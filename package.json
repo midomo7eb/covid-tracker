@@ -2,6 +2,7 @@
   "name": "covid-tracker",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://radiant-escarpment-82988.herokuapp.com",
   "engines": {
     "node": "16.x"
   },
