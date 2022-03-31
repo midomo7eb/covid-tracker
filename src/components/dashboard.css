@@ -1,0 +1,19 @@
+.users {
+  background: none;
+  border: none;
+}
+.users img {
+  width: 25px;
+}
+.cluster-marker {
+  color: rgb(255, 255, 255);
+  background: brown;
+  border-radius: 50%;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.well-marker img {
+  width: 30px;
+}

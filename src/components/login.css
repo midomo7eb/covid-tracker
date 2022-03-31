@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+.rightBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 100%;
+}
+.rightBox label {
+  color: white;
+}
+.leftBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 100%;
+}
+.btn {
+  margin-top: 10px;
+}
+.btn-primary,
+.btn-primary:active {
+  background-color: #ff0095 !important;
+}
+
+.btn-primary:hover {
+  background-color: #ff00957e !important;
+}
+.myForm form {
+  display: inherit;
+  width: 20vw;
+}
+.myRow {
+  background-image: url(https://bootdey.com/img/Content/bg1.jpg);
+
+  display: grid;
+}
+.title {
+  font-family: "Dancing Script", cursive;
+  position: absolute;
+  color: white;
+  font-size: 40px;
+  display: inherit;
+  align-self: flex-start;
+}
+@media screen and (min-width: 768px) {
+  .leftBox,
+  .rightBox {
+    height: 100vh;
+  }
+  .myRow {
+    display: flex;
+  }
+  /* .title {
+    transform: translate(395px, 0px);
+  } */
+}

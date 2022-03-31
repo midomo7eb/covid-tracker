@@ -1,0 +1,60 @@
+.inputCard {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1520052205864-92d242b3a76b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80);
+  height: 50vh;
+  background-size: cover;
+}
+.welcomeCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(https://bootdey.com/img/Content/bg1.jpg);
+  height: 50vh;
+  width: 100%;
+}
+.welcomeCard h1 {
+  text-align: center;
+}
+.cardLogo {
+  font-family: "Dancing Script", cursive;
+}
+.titleLogo {
+  font-family: "Dancing Script", cursive;
+  position: absolute;
+  display: inherit;
+  align-self: flex-start;
+}
+.loginText {
+  position: absolute;
+  display: flex;
+  align-self: flex-end;
+}
+.bottomLogo {
+  padding-bottom: 10px;
+  font-family: "Dancing Script", cursive;
+  position: absolute;
+  display: inherit;
+  align-self: flex-end;
+}
+.welcomeCard .btn {
+  margin-left: 10px;
+}
+.registerForm {
+  align-self: center;
+  height: 50%;
+  width: 50%;
+}
+.registerTitle {
+  position: absolute;
+  font-family: "Dancing Script", cursive;
+}
+
+@media screen and (min-width: 768px) {
+  .welcomeCard,
+  .inputCard {
+    height: 100vh;
+  }
+}

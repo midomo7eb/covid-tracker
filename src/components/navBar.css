@@ -1,0 +1,27 @@
+.navS {
+  background-image: url(https://bootdey.com/img/Content/bg1.jpg);
+}
+.navbar-brand {
+  color: white;
+}
+.nav-link {
+  color: white;
+}
+.titleNav {
+  display: flex;
+  width: 20%;
+  font-family: "Dancing Script", cursive;
+  color: white;
+  transform: translate(-1px, 0);
+}
+.titleNav h1 {
+  font-size: 30px;
+}
+.container-fluid a {
+  color: white;
+}
+
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus {
+  color: #ff2de3;
+}
